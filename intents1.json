@@ -1,0 +1,337 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi",
+                "How are you",
+                "I need to talk to someone!",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "I need help",
+                "I cant take it anymore",
+                "I need someone to listen to me",
+                "hey"
+            ],
+            "responses": ["Hello! How are you doing today?",
+                "Hello, your beloved Therapist. Come on, let's talk!",
+                "Good to see you! Let's begin today's session",
+                "Hi there, how can I help?",
+                "Is there something you want to talk about? i m  here for you!",
+                "Do you want to talk about something?",
+                "I am here to help you, we can talk about your feelings",
+                "Hey I am your friend, your very own Therapist! Feel free to talk about anything",
+                "Hi i am , your personal Therapist! Let's talk :)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye! This was helpful!",
+                "Bye",
+                "byebye",
+                "I have to go",
+                "I should go thanks for talking."
+            ],
+            "responses": ["Goodbye, I hope you will take better care of yourself. Looking forward to our next session.",
+                " I Hope Bubble the Therapist was helpful to you! Let's talk soon!",
+                "See you later, don't forget what we talked about today! I hope you would feel better after talking to me!",
+                "I hope you feel better after talking! Take care of yourself, and remember to check in soon!",
+                "Goodbye, Hope you have a good day ahead :)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "bad",
+            "patterns": ["I cant help but feel like a failure",
+                "I am sad",
+                "I am struggling a lot in my daily life",
+                "I hate my life",
+                "I think I might be depressed",
+                "I am not doing so great",
+                "I am not good",
+                "I am not well",
+                "I have been feeling down lately",
+                "I do not feel good these days.",
+                "I just feel so stuck these days",
+                "I feel worthless, I do not know what to do",
+                "Sometimes I get sad for no particular reason, my energy just drops and I lose motivation to do anything"
+            ],
+            "responses": ["I understand that, It it totally normal to feel low sometimes. Especially in the midst of a global pandemic, this last year has been really hard for everyone and you have had your own struggles. First thing i'd suggest is getting the sleep you need or it will impact how you think and feel . I'd also suggest you to look at your life and find out what is going well in your life and what you can be grateful for . I believe everyone has something in their life to be grateful for. You can figure it out with some help. ", "You sound like you have so much on your mind ! I am relieved to hear that you are opening up about your struggles , but not being able to sleep , feeling worthless, and like you shouldn't be here are big issues that need addressing . Please get around to counseling . Having someone to listen to you is a gift to yourself . You deserve the help of someone helping you change your feelings of worthlessness",
+                "You seem to be Lost! I would suggest you to start a writing journal, it is really going to help you with understanding your own emotions.", "You have not been able to do this alone, and your don't have to be alone!. It's time to reach out for help to a professional. You can do this ! best to you !"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "extreme",
+            "patterns": ["I cannot talk to anyone. I have attempted suicide before. I need help",
+                "I have suicidal thoughts and tendencies",
+                "I hate myself, I do not want to exist anymore.",
+                "I am depressed, I do not wish to live anymore",
+                "I have no one in my life that I can talk to, I cannot live like this",
+                "I feel worthless all the time. Sometimes I want to end it all",
+                "It feels like the world has come down crumbling around me. I feel helpless",
+                "I feel nothingness in my soul, I have no reason to live",
+                "Suicide",
+                "Everyday is the same, I feel like I cannot come out of this hole I am in. I want to end it all",
+                "I am not capable of love, I am severly depressed"
+            ],
+            "responses": ["Please understand that you are not alone and it is not too late. You need immediate proffesional attention. I am providing you with some resources, please connect with a professional Therapist. Resources: 1. Suicide Helpline India: 9152987821 2. Help centers for different states: http://www.aasra.info/helpline.html 3. Suicide prevention: https://www.who.int/health-topics/suicide#tab=tab_1", "Listen friend, whatever it is that you are going through, you can get help, you can take control of your life. In my opinion, it is time to reach out for help to a professional. I believe you are in need of proffesional care. Here are some resources to help you out Resources: 1. Suicide Helpline India: 9152987821  Help centers for different states: http://www.aasra.info/helpline.html Suicide prevention: https://www.who.int/health-topics/suicide#tab=tab_1"],
+            "context_set": ""
+        },
+        {
+            "tag": "good",
+            "patterns": ["I feel happy!",
+                "I am better than before!",
+                "I am happy!",
+                "I feel good these days",
+                "Today was a good day",
+                "I have found a new light in my life",
+                "I feel like i have a new purpose in life!"
+            ],
+            "responses": ["Wow that is so great, I am happy our sessions have been working out for you!."],
+            "context_set": ""
+        },
+        {
+            "tag": "quotes",
+            "patterns": ["Make me happy",
+                "Cheer me up",
+                "I need to change my mood",
+                "Tell me something",
+                "Tell me some good quotes",
+                "Need some positivity",
+                "Need to hear something good",
+                "I need to cheer up"
+            ],
+            "responses": [" 'There is love, there is music, there is no limit, there is work, there is the precious sense that this is the hour of grace when all things gather and distil to create the rest of my life. I don’t believe in God, I believe in everything.' ",
+                " 'Tomorrow is always fresh, with no mistakes in it yet' ",
+                " 'Today will be better. Not because the world has dealt you better cards, but because you choose to use them to your advantage. Today, you choose happiness.' ",
+                " 'Happiness is not something ready made. It comes from your own actions.' ",
+                " 'Happiness can be found, even in the darkest of times, if only one remembers to turn on the light.' ",
+                " 'Imagine walking over a ray of sunshine. Everything is warm and full of light and there is a smile, not on your lips, but rather deep inside of you. There is no past or future, time doesn't exist. You feel like you are becoming one with the sun. You're walking through infinity, one step at a time. Turns out happiness was always a part of you, you just had to allow it to break through. And freedom, freedom was just one tiny step in front of you.' ",
+                " 'So far, you have made it through all of your worst days. Well done, Keep going friend!' ",
+                " 'to be kind to all, to like many and love a few, to be needed and wanted by those we love, is certainly the nearest we can come to happiness' ",
+                " 'If happiness visits you again, do not remember it's previous betrayal. Enter into the happiness and burst' ",
+                " 'I had the epiphany that laughter was light, and light was laughter, and that this was the secret of the universe.' "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "loneliness",
+            "patterns": ["I feel so alone", "I don't have anyone to talk to", "I'm lonely"],
+            "responses": ["I'm here for you. Let's talk about what's on your mind.", "You're not alone. I'm here to listen and support you."],
+            "context_set": ""
+        },
+        {
+            "tag": "stress_management",
+            "patterns": ["I'm feeling overwhelmed", "How can I manage stress?", "I need stress relief techniques"],
+            "responses": ["I can help you with stress management techniques. Let's explore some together.", "It's important to find healthy ways to cope with stress. Let's discuss some strategies."],
+            "context_set": ""
+        },
+        {
+            "tag": "self_esteem",
+            "patterns": ["I struggle with self-esteem", "How can I improve my self-worth?", "I don't feel good about myself"],
+            "responses": ["Working on self-esteem is crucial for mental well-being. Let's discuss strategies to boost your self-worth.", "You deserve to feel good about yourself. Let's explore ways to improve your self-esteem."],
+            "context_set": ""
+        },
+        {
+            "tag": "relationships",
+            "patterns": ["I'm having problems in my relationship", "How can I improve my relationships?", "I feel disconnected from my loved ones"],
+            "responses": ["Relationships can be challenging. Let's talk about what's going on and find ways to improve your connections.", "Building healthy relationships is important. Let's explore ways to strengthen your connections with others."],
+            "context_set": ""
+        },
+        {
+            "tag": "anxiety",
+            "patterns": ["I'm feeling anxious", "How can I cope with anxiety?", "I have anxiety issues"],
+            "responses": ["Dealing with anxiety can be tough. Let's discuss techniques to manage and reduce anxiety.", "You're not alone in this. I'm here to help you navigate through your anxiety."],
+            "context_set": ""
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["I lack motivation", "How can I find motivation?", "I feel unmotivated"],
+            "responses": ["Finding motivation can be a challenge. Let's explore ways to reignite your passion and drive.", "We all have moments of low motivation. Let's work together to find ways to boost yours."],
+            "context_set": ""
+        },
+        {
+            "tag": "self_care",
+            "patterns": ["How can I practice self-care?", "I need self-care tips", "What are some self-care activities?"],
+            "responses": ["Self-care is important for your well-being. Let's explore personalized self-care practices for you.", "Taking care of yourself is crucial. Let's discuss self-care activities that suit your needs."],
+            "context_set": ""
+        },
+        {
+            "tag": "trauma",
+            "patterns": ["I've experienced trauma", "How can I cope with trauma?", "I need help with past traumas"],
+            "responses": ["Dealing with trauma is a sensitive issue. I'm here to support you. Let's talk about your feelings and explore coping strategies.", "I'm here to help you navigate through your past traumas. Let's discuss techniques to heal and find peace."],
+            "context_set": ""
+        },
+        {
+            "tag": "sleep",
+            "patterns": ["I have trouble sleeping", "How can I improve my sleep?", "I suffer from insomnia"],
+            "responses": ["Quality sleep is crucial for mental health. Let's explore strategies to improve your sleep patterns.", "I understand how important sleep is. Let's discuss techniques to help you get better rest."],
+            "context_set": ""
+        },
+        {
+            "tag": "substance_abuse",
+            "patterns": ["I'm struggling with substance abuse", "How can I overcome addiction?", "I need help with substance misuse"],
+            "responses": ["Dealing with substance abuse is a serious matter. I'm here to support you in your journey towards recovery. Let's talk about it.", "You're not alone in this. Let's discuss strategies and resources to help you overcome substance misuse."],
+            "context_set": ""
+        },
+        {
+            "tag": "body_image",
+            "patterns": ["I have body image issues", "How can I improve my body image?", "I feel insecure about my appearance"],
+            "responses": ["Your feelings about your body are valid. Let's talk about ways to improve your body image and practice self-acceptance.", "It's important to feel comfortable in your own skin. Let's explore techniques to boost your body image."],
+            "context_set": ""
+        },
+        {
+            "tag": "panic_attack",
+            "patterns": ["I'm having a panic attack", "How can I cope during a panic attack?", "I suffer from panic attacks"],
+            "responses": ["I'm here to help you through this. Try to focus on your breath. Take deep, slow breaths. You're not alone.", "I'm here with you. Try to find a quiet, safe space. Take slow, deep breaths. You're going to be okay."],
+            "context_set": ""
+        },
+        {
+            "tag": "anger_management",
+            "patterns": ["I struggle with anger", "How can I manage my anger?", "I have anger issues"],
+            "responses": ["Managing anger is important for your well-being. Let's discuss techniques to help you cope with and control your anger.", "You're not alone in this. I'm here to support you in finding healthy ways to manage your anger."],
+            "context_set": ""
+        },
+        {
+            "tag": "social_anxiety",
+            "patterns": ["I have social anxiety", "How can I cope with social situations?", "I feel anxious around people"],
+            "responses": ["Dealing with social anxiety can be challenging. I'm here to help. Let's talk about strategies to feel more comfortable in social situations.", "I understand how overwhelming social situations can be. Let's work together to find ways to manage your social anxiety."],
+            "context_set": ""
+        },
+        {
+            "tag": "phobias",
+            "patterns": ["I have specific phobias", "How can I overcome my fears?", "I need help with my phobias"],
+            "responses": ["Facing your fears is a courageous step. I'm here to support you. Let's talk about techniques to gradually overcome your phobias.", "You're not alone in this. Let's discuss strategies to help you conquer your specific fears."],
+            "context_set": ""
+        },
+        {
+            "tag": "body_dysmorphic_disorder",
+            "patterns": ["I have body dysmorphic disorder", "How can I cope with BDD?", "I struggle with body image"],
+            "responses": ["Coping with Body Dysmorphic Disorder can be a journey. I'm here to help. Let's talk about strategies to improve your relationship with your body.", "You're not alone in this. Let's explore ways to support you in managing Body Dysmorphic Disorder."],
+            "context_set": ""
+        },
+        {
+            "tag": "eating_disorders",
+            "patterns": ["I'm dealing with an eating disorder", "How can I get help for my eating disorder?", "I need support with my eating habits"],
+            "responses": ["Dealing with an eating disorder requires professional help. I'm here to support you in seeking treatment and finding resources.", "You're not alone in this. Let's discuss ways to get the help and support you need for your eating disorder."],
+            "context_set": ""
+        },
+        {
+            "tag": "parenting_stress",
+            "patterns": ["I'm feeling stressed as a parent", "How can I cope with parenting stress?", "I need support with parenting"],
+            "responses": ["Parenting can be challenging. I'm here to offer support and guidance. Let's talk about ways to manage your parenting stress.", "You're not alone in feeling this way. Let's explore techniques to help you navigate the challenges of parenting."],
+            "context_set": ""
+        },
+        {
+            "tag": "self_harm",
+            "patterns": ["I self-harm", "How can I stop self-harming?", "I need help with self-harm"],
+            "responses": ["I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can offer immediate help. Please reach out to a mental health professional or a trusted person in your life.", "I'm really sorry you're going through this, but I can't provide the help that you need. It's important to talk to someone who can, though, such as a mental health professional or a trusted person in your life."],
+            "context_set": ""
+        },
+        {
+            "tag": "therapy_options",
+            "patterns": ["What are my therapy options?", "How can I find a therapist?", "Where can I get therapy?"],
+            "responses": ["There are various therapy options available, including cognitive-behavioral therapy (CBT), talk therapy, and more. It's important to find the one that suits you best. You can start by looking for local therapists or using online platforms for virtual sessions."],
+            "context_set": ""
+        },
+        {
+            "tag": "medication",
+            "patterns": ["Should I consider medication?", "What are my options for medication?", "How can I discuss medication with my doctor?"],
+            "responses": ["Deciding on medication is a personal choice. It's important to consult a mental health professional who can provide guidance based on your specific situation. They can discuss the potential benefits and risks with you."],
+            "context_set": ""
+        },
+        {
+            "tag": "workplace_stress",
+            "patterns": ["I'm dealing with workplace stress", "How can I manage stress at work?", "I need support with my job-related stress"],
+            "responses": ["Workplace stress is common, but it's important to address it. Let's explore strategies to manage stress in your work environment. It's also recommended to discuss your feelings with your supervisor or HR department."],
+            "context_set": ""
+        },
+        {
+            "tag": "postpartum_depression",
+            "patterns": ["I think I have postpartum depression", "How can I get help for postpartum depression?", "I need support as a new parent"],
+            "responses": ["Postpartum depression is a serious concern. It's crucial to seek help from a healthcare provider or mental health professional who can provide the support and resources you need. You're not alone in this."],
+            "context_set": ""
+        },
+        {
+            "tag": "grief_support",
+            "patterns": ["I'm dealing with grief", "How can I cope with loss?", "I need support for grieving"],
+            "responses": ["Grief is a complex process. I'm here to support you. Let's talk about ways to navigate through your feelings of loss and find healthy coping mechanisms."],
+            "context_set": ""
+        },
+        {
+            "tag": "obsessive_compulsive_disorder",
+            "patterns": ["I have OCD", "How can I manage my obsessive thoughts?", "I need help with OCD"],
+            "responses": ["Dealing with Obsessive-Compulsive Disorder can be challenging. I'm here to support you. Let's talk about techniques to manage and reduce obsessive thoughts.", "You're not alone in this. Let's explore strategies to help you cope with OCD."],
+            "context_set": ""
+        },
+        {
+            "tag": "gender_identity",
+            "patterns": ["I'm struggling with my gender identity", "How can I navigate my gender identity?", "I need support with my gender journey"],
+            "responses": ["Navigating your gender identity is an important and personal journey. I'm here to support you. Let's talk about your feelings and explore resources that can help you on your journey.", "You're not alone in this. Let's discuss ways to navigate your gender identity and find a supportive community."],
+            "context_set": ""
+        },
+        {
+            "tag": "academic_stress",
+            "patterns": ["I'm feeling stressed about school or academics", "How can I manage academic pressure?", "I need support with my studies"],
+            "responses": ["Academic stress is common, but it's important to address it. Let's explore strategies to manage the pressure and find a healthy balance in your academic life. It's also recommended to seek support from teachers or academic advisors."],
+            "context_set": ""
+        },
+        {
+            "tag": "financial_stress",
+            "patterns": ["I'm dealing with financial stress", "How can I cope with financial pressure?", "I need support with my financial situation"],
+            "responses": ["Financial stress can be overwhelming. I'm here to help. Let's discuss ways to manage your financial situation and explore resources that can offer support and guidance."],
+            "context_set": ""
+        },
+        {
+            "tag": "identity_crisis",
+            "patterns": ["I'm going through an identity crisis", "How can I navigate my identity crisis?", "I need support with my sense of self"],
+            "responses": ["Experiencing an identity crisis is a significant challenge. I'm here to support you. Let's talk about your feelings and explore strategies to help you navigate through this period of self-discovery."],
+            "context_set": ""
+        },
+        {
+            "tag": "academic_procrastination",
+            "patterns": ["I procrastinate with my studies", "How can I overcome academic procrastination?", "I need help with time management"],
+            "responses": ["Overcoming academic procrastination is possible. Let's explore techniques to improve your time management and study habits. Setting realistic goals can also be helpful in staying on track."],
+            "context_set": ""
+        },
+        {
+            "tag": "phobia_management",
+            "patterns": ["How can I manage my specific phobia?", "I need help overcoming my fear", "I struggle with specific fears"],
+            "responses": ["Managing specific phobias is an important step towards your well-being. Let's talk about techniques to gradually overcome your fears and regain control.", "You're not alone in this. Let's explore strategies to help you confront and manage your specific phobia."],
+            "context_set": ""
+        },
+        {
+            "tag": "spirituality",
+            "patterns": ["I'm seeking spiritual guidance", "How can I find peace through spirituality?", "I need support in my spiritual journey"],
+            "responses": ["Exploring spirituality can be a meaningful part of your mental health journey. Let's talk about your spiritual beliefs and how they can contribute to your overall well-being.", "You're not alone in your spiritual journey. Let's discuss ways to find peace and meaning through your beliefs."],
+            "context_set": ""
+        },
+        {
+            "tag": "impostor_syndrome",
+            "patterns": ["I struggle with impostor syndrome", "How can I overcome feelings of inadequacy?", "I need support with self-doubt"],
+            "responses": ["Dealing with impostor syndrome can be challenging. I'm here to support you. Let's talk about techniques to recognize and overcome feelings of self-doubt.", "You're not alone in this. Let's explore strategies to help you gain confidence and recognize your own achievements."],
+            "context_set": ""
+        },
+        {
+            "tag": "exercise_mental_health",
+            "patterns": ["How does exercise affect mental health?", "I want to improve my mental health through exercise", "I need guidance on incorporating exercise for mental well-being"],
+            "responses": ["Exercise can have a positive impact on mental health. Let's discuss how incorporating physical activity can benefit your overall well-being and explore suitable exercise routines."],
+            "context_set": ""
+        },
+        {
+            "tag": "mindfulness_practices",
+            "patterns": ["I want to practice mindfulness", "How can mindfulness help with mental well-being?", "I need guidance on mindfulness techniques"],
+            "responses": ["Mindfulness practices can be beneficial for mental well-being. Let's explore mindfulness techniques that can help you cultivate present-moment awareness and reduce stress."],
+            "context_set": ""
+        },
+        {
+            "tag": "positive_affirmations",
+            "patterns": ["I want to use positive affirmations", "How can positive affirmations improve my mindset?", "I need guidance on creating affirmations"],
+            "responses": ["Positive affirmations can be a powerful tool for improving your mindset. Let's discuss how to create and integrate affirmations into your daily routine for greater self-confidence and positivity."],
+            "context_set": ""
+        }
+
+    ]
+}
